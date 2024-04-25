@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #7d3cff; /* Purple background color */
+  margin: 0;
+  padding: 0;
+}
+
+.topbar {
+  background-color: #5a24b4; /* Darker purple top bar color */
+  color: #fff;
+  width: 100%;
+  position: fixed; /* Fix the top bar */
+  top: 0; /* Place it at the top */
+}
+
+.topbar .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  width: 100%;
+  max-width: 800px; /* Adjust as necessary */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.topbar-header {
+  margin: 0;
+  color: #5a24b4;
+}
+
+.topbar a {
+  color: #5a24b4; /* White color for the link */
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 80px auto 20px; /* Adjust margins as needed */
+}
+
+.container h2 {
+  text-align: center;
+  color: #7d3cff; /* Purple heading color */
+}
+
+.container form {
+  width: 20%;
+  max-width: 300px; /* Limit maximum form width */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  color: #7d3cff; /* Purple label color */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: calc(100% - 22px); /* Adjusted width to fit within the container */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-group input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #7d3cff; /* Purple button color */
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #5a24b4; /* Darker purple hover color */
+}
+
+.calendar {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.calendar th,
+.calendar td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.calendar th {
+  background-color: #7d3cff;
+  color: #fff;
+}
+
+.calendar td {
+  background-color: #f9f9f9;
+}
